@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla Dinámica de Multiplicación</title>
+    <!-- Enlazamos el archivo CSS para los estilos -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Contenedor principal -->
+    <div class="contenedor">
+        <h1>Generador de Tabla de Multiplicación</h1>
+        
+        <!-- Campo de entrada para que el usuario ingrese un número -->
+        <input type="number" id="numero" placeholder="Introduce un número" min="1">
+
+        <!-- Botón para generar la tabla -->
+        <button onclick="generarTabla()">Generar Tabla</button>
+
+        <!-- Botón para reiniciar la tabla -->
+        <button onclick="reiniciarTabla()">Reiniciar</button>
+
+        <!-- Contenedor donde se mostrará la tabla de multiplicación -->
+        <div id="tablaResultado"></div>
+    </div>
+
+    <!-- Enlazamos el archivo JavaScript para la lógica del programa -->
+    <script src="script.js"></script>
+</body>
+</html>
+
